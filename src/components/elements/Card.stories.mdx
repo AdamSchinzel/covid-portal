@@ -1,0 +1,24 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks";
+import Card from "./Card";
+
+<Meta title="Elements/Card" component={Card} />
+
+# Card
+
+Card used in panel in portal layout.
+
+export const Component = (args) => <Card {...args} />;
+
+<Canvas>
+  <Story
+    name="Card"
+    args={{
+      cardTitle: "Title",
+      cardSubtitle: "Subtitle",
+      value: 378,
+      lastUpdate: "2/3/2021",
+    }}
+  >
+    {Component}
+  </Story>
+</Canvas>

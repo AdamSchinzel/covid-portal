@@ -1,0 +1,21 @@
+{
+  "title": "Portál Covid-19",
+  "description": "Čerstvé informace ohledně stavu covid v česku ihned při ruce.",
+  "about": "O projektu",
+  "info": "Informace",
+  "confirmed": "Potvrzené případy",
+  "recovered": "Vyléčení",
+  "death": "Úmrtí",
+  "confirmed_desc": "Počet potvrzených případů covid-19.",
+  "recovered_desc": "Počet uzdravených lidí po covid-19.",
+  "death_desc": "Počet mrtvých lidí na covid-19.",
+  "placeholder": "Vyberte zemi",
+  "about_title": "Portál Covid-19",
+  "about_desc": "Tento projekt vznikl za účelem prokázání znalostí Reactu.",
+  "testing": "Testování komponent",
+  "issue": "Issue tracking systém",
+  "style": "Stylování",
+  "http": "HTTP klient",
+  "charts": "Grafy",
+  "translate": "Překlad"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Portál Covid-19",
+  "description": "Hot information about the state of covid in the Czech Republic at hand.",
+  "about": "About project",
+  "info": "Information",
+  "confirmed": "Confirmed cases",
+  "recovered": "Recovered",
+  "death": "Death",
+  "confirmed_desc": "Number of confirmed cases of covid-19.",
+  "recovered_desc": "Number of people recovered after covid-19.",
+  "death_desc": "Number of deaths due to covid-19",
+  "placeholder": "Pick country",
+  "about_title": "Portal Covid-19",
+  "about_desc": "This project was created to demonstrate knowledge of React and its core principles (hooks etc.)",
+  "testing": "Component testing",
+  "issue": "Issue tracking system",
+  "style": "Styling",
+  "http": "HTTP client",
+  "charts": "Charts",
+  "translate": "Translation"
+}

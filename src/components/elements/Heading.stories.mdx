@@ -1,0 +1,21 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks";
+import Heading from "./Heading";
+
+<Meta title="Elements/Heading" component={Heading} />
+
+# Heading
+
+Heading styling for Covid-19 portal.
+
+export const Component = (args) => <Heading>{args.text}</Heading>;
+
+<Canvas>
+  <Story
+    name="Heading"
+    args={{
+      text: "Heading",
+    }}
+  >
+    {Component}
+  </Story>
+</Canvas>

@@ -1,0 +1,21 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks";
+import Button from "./Button";
+
+<Meta title="Elements/Button" component={Button} />
+
+# Button
+
+Button styling for Covid-19 portal.
+
+export const Component = (args) => <Button>{args.text}</Button>;
+
+<Canvas>
+  <Story
+    name="Button"
+    args={{
+      text: "Click me!",
+    }}
+  >
+    {Component}
+  </Story>
+</Canvas>

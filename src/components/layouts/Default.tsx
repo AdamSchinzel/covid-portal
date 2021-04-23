@@ -16,12 +16,13 @@ const Container = styled.div`
 
 interface Props {
   children: React.ReactNode;
+  about?: boolean;
 }
 
-const Default: React.FC<Props> = ({ children }) => {
+const Default: React.FC<Props> = ({ children, about }) => {
   return (
     <Container>
-      <Header />
+      <Header about={about} />
       {children}
     </Container>
   );

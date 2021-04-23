@@ -16,15 +16,23 @@ const HeaderDiv = styled.div`
   width: 100%;
 `;
 
-const Header: React.FC = () => {
+interface Props {
+  about?: boolean;
+}
+
+const Header: React.FC<Props> = ({ about }) => {
   const { t } = useTranslation<string>();
 
   return (
     <HeaderDiv>
-      <img src={Logo} alt="Logo" width="100" height="100" />
-      <Link to="/about">
-        <Button>{t("about")}</Button>
+      <Link to="">
+        <img src={Logo} alt="Logo" width="100" height="100" />
       </Link>
+      {!about && (
+        <Link to="/about">
+          <Button>{t("about")}</Button>
+        </Link>
+      )}
     </HeaderDiv>
   );
 };

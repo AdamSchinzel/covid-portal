@@ -33,7 +33,7 @@ const About: React.FC = () => {
   const { t } = useTranslation<string>();
 
   return (
-    <Default>
+    <Default about={true}>
       <Heading>{t("about_title")}</Heading>
       <p>{t("about_desc")}</p>
       <br></br>
@@ -49,7 +49,7 @@ const About: React.FC = () => {
       <Back>
         <Icon name="arrow-left" color="#FF4F5A" size="20" />
         <Link to="/">
-          <p>Zpět</p>
+          <p>{t("back")}</p>
         </Link>
       </Back>
     </Default>

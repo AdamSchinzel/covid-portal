@@ -43,9 +43,9 @@ const About: React.FC = () => {
       <p>- {t("testing")}: Storybook</p>
       <p>- {t("issue")}: Sentry</p>
       <p>- {t("style")}: Styled-components</p>
-      <p>- {t("http")}: i18next</p>
-      <p>- {t("charts")}: Axios</p>
-      <p>- {t("translate")}: React-chartjs-2</p>
+      <p>- {t("translate")}: i18next</p>
+      <p>- {t("http")}: Axios</p>
+      <p>- {t("charts")}: React-chartjs-2</p>
       <Back>
         <Icon name="arrow-left" color="#FF4F5A" size="20" />
         <Link to="/">

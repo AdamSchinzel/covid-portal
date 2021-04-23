@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+
 import { ThemeProvider } from "styled-components";
 import theme from "./config/theme";
 
@@ -14,3 +16,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root"),
 );
+
+serviceWorkerRegistration.unregister();
